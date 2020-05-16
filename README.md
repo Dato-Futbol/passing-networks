@@ -1,6 +1,6 @@
 # passing-networks
 
-![plots/France-Belgium.png]
+![](/plots/France-Belgium.png){:height="70%" width="70%"}
 
 Here you can find a couple of R functions to create customized *passing networks* with event data by Statsbomb or tracking data by Metrica Sport.
 
