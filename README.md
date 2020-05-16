@@ -1,6 +1,8 @@
 # passing-networks
 
-Here you can find a couple of R functions to create customized passing networks with event data by Statsbomb or tracking data by Metrica Sport.
+![plots/France-Belgium.png]
+
+Here you can find a couple of R functions to create customized *passing networks* with event data by Statsbomb or tracking data by Metrica Sport.
 
 First, i would suggest to read this article in order to get some general context and more details of this work.
 
