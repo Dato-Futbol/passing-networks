@@ -1,4 +1,4 @@
-# passing-networks
+## Passing networks using R
 
 ![](/plots/France-Belgium.png)
 
@@ -68,6 +68,4 @@ This work is in some way a mix of these things:
 Future/pending work:
 
 * Mainly to enable a passes value metric option, like VAEP, xT, EPV, g+ or similar
-
-
 
