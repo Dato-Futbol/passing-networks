@@ -29,9 +29,9 @@ Then, you can follow this steps:
 
 * Open the "**main_code.R**" file, load the necessary packages and call the respective function to create your customized graphs.
 
-There are a lot of arguments to configurate the creation and outputs of the passing networks, both data selection and aesthetics parts.
+* There are a lot of arguments to configurate the creation and outputs of the passing networks, both data selection and aesthetics parts.
 
-Here a code example using Statsbomb data with the function "**soccerPassNetEventing.R**"
+* Here a code example using Statsbomb data with the function "**soccerPassNetEventing.R**"
 
 ```
 soccerPassNetEventing(gameID = 7584, TeamName = "Japan", poss = T, pass_dir = T, convex = T,
@@ -42,7 +42,15 @@ soccerPassNetEventing(gameID = 7584, TeamName = "Japan", poss = T, pass_dir = T,
 
 ![](/plots/Japan-Belgium-ver2.png)
 
-And here a code using Metrica Sport data with the function "**soccerPassNetTracking.R**"
+* And here a code using Metrica Sport data with the function "**soccerPassNetTracking.R**"
 
+```
+soccerPassNetTracking(gameID = "1", TeamName = "Home", pos_source = "track", node_pos = "origin",
+                      context = "attacking", half = "own", field = 2,
+                      pass_dir = T, minPass = 2, convex = T, 
+                      label = T, shortNames = F, labelSize = 2, 
+                      maxNodeSize = 12, maxEdgeSize = 1.5, edgeAlpha = 0.8)
+```                     
 
+![](/plots/1-Home-attack-own-ver2.png)
 
