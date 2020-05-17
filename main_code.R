@@ -13,7 +13,10 @@ if(!require(readr)){install.packages("readr")}
 library(readr)
 if(!require(scales)){install.packages("scales")}
 library(scales)
-
+if (!require("devtools")) install.packages("devtools")
+library(devtools)
+if(!require(soccermatics)){devtools::install_github("jogall/soccermatics")}
+library(soccermatics)
 
 # Example 1: Statsbomb data
 
