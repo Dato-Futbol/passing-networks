@@ -4,7 +4,7 @@
 
 Here you can find a couple of R functions to create customized **passing networks** with event data by Statsbomb or tracking data by Metrica Sport.
 
-First, i would suggest to read this article in order to get some general context and more details of this work.
+First, i would suggest to read [**this article**]() in order to get some general context and more details of this work.
 
 Then, you can follow this steps:
 
@@ -53,4 +53,21 @@ soccerPassNetTracking(gameID = "1", TeamName = "Home", pos_source = "track", nod
 ```                     
 
 ![](/plots/1-Home-attack-own-ver2.png)
+
+---
+
+This work is in some way a mix of these things:
+
+* A complement to the soccerPassmap function from the [**{soccermatics} package**](https://github.com/JoGall/soccermatics) by Joe Gallagher
+
+* An adaptation to R of the Python code contained in the [**Friends of Tracking repository about passing networks**](https://github.com/Friends-of-Tracking-Data-FoTD/passing-networks-in-python)
+
+* An implementation of different ideas from the football analytics community and myself
+
+
+Future/pending work:
+
+* Mainly to enable a passes value metric option, like VAEP, xT, EPV, g+ or similar
+
+
 
