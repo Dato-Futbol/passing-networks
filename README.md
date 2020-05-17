@@ -22,10 +22,14 @@ If you have any problem with this process you can also review these excellent re
 There are a lot of arguments to configurate the creation and outputs of the passing networks, both data selection and aesthetics parts.
 
 Here a code example:
-`soccerPassNetEventing(gameID = 7584, TeamName = "Japan", poss = T, pass_dir = T, convex = T,
+
+```soccerPassNetEventing(gameID = 7584, TeamName = "Japan", poss = T, pass_dir = T, convex = T,
                       minPass = 5, node_pos = "origin", nodeFill = "blue", edgeAlpha = 0.5,
                       label = T, shortNames = T,  maxNodeSize = 15, maxEdgeSize = 2.5,  
-                      Flipx = F, field = 1)`
+                      Flipx = F, field = 1)
+```                     
+
+![](/plots/Japan-Belgium-ver2.png)
 
 
 
