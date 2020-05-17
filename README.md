@@ -60,12 +60,12 @@ This work is in some way a mix of these things:
 
 * A complement to the soccerPassmap function from the [**{soccermatics} package**](https://github.com/JoGall/soccermatics) by Joe Gallagher
 
-* An adaptation to R of the Python code contained in the [**Friends of Tracking repository about passing networks**](https://github.com/Friends-of-Tracking-Data-FoTD/passing-networks-in-python)
+* An adaptation to R from the Python code contained in the [**Friends of Tracking repository about passing networks**](https://github.com/Friends-of-Tracking-Data-FoTD/passing-networks-in-python)
 
 * An implementation of different ideas from the football analytics community and myself
 
 
 Future/pending work:
 
-* Mainly to enable a passes value metric option, like VAEP, xT, EPV, g+ or similar
+* Mainly to enable a passes value metric option, like [**VAEP**](https://people.cs.kuleuven.be/~tom.decroos/reports/kdd19_tomd.pdf), [**xT**](https://karun.in/blog/expected-threat.html), [**g+**](https://www.americansocceranalysis.com/home/2020/4/22/37ucr0d5urxxtryn2cfhzormdziphq), [**EPV**](http://www.sloansportsconference.com/wp-content/uploads/2019/02/Decomposing-the-Immeasurable-Sport.pdf) or similar
 
