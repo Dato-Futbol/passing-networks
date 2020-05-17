@@ -10,7 +10,7 @@ Then, you can follow this steps:
 
 1.- Statsbomb event data
 
-* Get the data using the function "**get_SB_event_data_WC2018.R**" 
+* Get the data using the code of the file "**get_SB_event_data_WC2018.R**" 
 
 Don't forget to read and agree to the [User Agreement](https://github.com/statsbomb/open-data/blob/master/LICENSE.pdf)
 
@@ -23,7 +23,8 @@ There are a lot of arguments to configurate the creation and outputs of the pass
 
 Here a code example:
 
-```soccerPassNetEventing(gameID = 7584, TeamName = "Japan", poss = T, pass_dir = T, convex = T,
+```
+soccerPassNetEventing(gameID = 7584, TeamName = "Japan", poss = T, pass_dir = T, convex = T,
                       minPass = 5, node_pos = "origin", nodeFill = "blue", edgeAlpha = 0.5,
                       label = T, shortNames = T,  maxNodeSize = 15, maxEdgeSize = 2.5,  
                       Flipx = F, field = 1)
